@@ -1,0 +1,126 @@
+.probootstrap-half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.probootstrap-half .image-wrap, .probootstrap-half .text {
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .probootstrap-half .image-wrap, .probootstrap-half .text {
+    width: 100%;
+  }
+}
+
+.probootstrap-half .image-wrap {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .probootstrap-half .image-wrap {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+.probootstrap-half .image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-transition: .8s all ease-in-out;
+  transition: .8s all ease-in-out;
+  background-color: #2866AB;
+}
+
+.probootstrap-half .text {
+  padding: 100px;
+  background: #161C2E;
+}
+
+@media screen and (max-width: 1000px) {
+  .probootstrap-half .text {
+    width: 100%;
+    padding: 30px 15px;
+    float: left;
+  }
+}
+
+.probootstrap-half .text .subtitle {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.probootstrap-half .text h2, .probootstrap-half .text h3, .probootstrap-half .text .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .probootstrap-half .text .probootstrap-card-heading, .probootstrap-half .text .service .heading, .service .probootstrap-half .text .heading, .probootstrap-half .text h4, .probootstrap-half .text h5 {
+  color: #ffffff;
+}
+
+.probootstrap-half .text h3, .probootstrap-half .text .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .probootstrap-half .text .probootstrap-card-heading, .probootstrap-half .text .service .heading, .service .probootstrap-half .text .heading {
+  line-height: 30px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .probootstrap-half .text h3, .probootstrap-half .text .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .probootstrap-half .text .probootstrap-card-heading, .probootstrap-half .text .service .heading, .service .probootstrap-half .text .heading {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.probootstrap-half .text p {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.5;
+}
+
+.probootstrap-half.reverse {
+  position: relative;
+}
+
+.probootstrap-half.reverse .image-wrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .probootstrap-half.reverse .image-wrap {
+    position: relative;
+    height: 400px;
+  }
+}
+
+.probootstrap-half .btn-ghost-white {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.probootstrap-half .btn-ghost-white:hover, .probootstrap-half .btn-ghost-white:active, .probootstrap-half .btn-ghost-white:focus {
+  background: none !important;
+  color: #ffffff !important;
+  border-color: #2866ab !important;
+}
+
+.probootstrap-half .service-item {
+  position: relative;
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.probootstrap-half .service-item .number {
+  font-weight: 700;
+  font-size: 100px;
+  left: 0px;
+  margin-left: -50px;
+  top: 0;
+  color: rgba(255, 255, 255, 0.05);
+  z-index: 1;
+  line-height: 100px;
+  position: absolute;
+}
+
