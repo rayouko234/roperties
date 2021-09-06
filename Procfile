@@ -1,1 +1,1 @@
-web: gunicorn rokayproperties.wsgi
+web: gunicorn rokayproperties.wsgi --log-file -
